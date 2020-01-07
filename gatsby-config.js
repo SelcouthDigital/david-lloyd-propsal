@@ -33,7 +33,10 @@ module.exports = {
     {
       resolve: '@narative/gatsby-theme-novela',
       options: {
+        basePath: '/',
+        authorsPage: false,
         sources: {
+          // local: true,
           contentful: true,
         },
       },
